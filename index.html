@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>night trip</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".slideshow").bxSlider({
+                auto: true,
+                mode: 'fade',
+                speed: 1000,
+                pager: false,
+                controls: false,
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" href="./css/slick.css">
+    <script src="./js/slick.min.js"></script>
+    <script>
+        $(function () {
+            $('.slider').slick({
+                autoplay: true,
+                autoplaySpeed: 0,
+                speed: 5000,
+                arrows: false,
+                slidesToShow: 5,
+                cssEase: 'linear',
+                pauseOnFocus: false,
+                pauseOnHover: false,
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="header__wrapper">
+            <div class="logo">NT</div>
+            <ul>
+                <li>お知らせ</li>
+                <li>会社概要</li>
+                <li>コース</li>
+                <li>お問い合わせ</li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="mainVisual">
+        <div class="slideshow">
+            <img src="./img/main01.png">
+            <img src="./img/main02.png">
+            <img src="./img/main03.png">
+        </div>
+        <div class="catchcopy">
+            <p class="catchcopyTitle">Night Trip</p>
+            <p class="catchcopySub">～夜の旅へ～</p>
+        </div>
+    </div>
+
+    <div class="news">
+        <div class="news__wrapper">
+            <p class="newsCategory">NEWS</p>
+            <p class="newsCateroryAssistance">お知らせ</p>
+            <div class="newsContent">
+                <div class="newsContentPic">
+                    <img src="./img/news01.png">
+                    <p class="newsTitle">期間限定</p>
+                    <p class="newsArticle">12月1日～12月25日限定で「クリスマスコース」を体験いただけます。<br>
+                        世界のクリスマスの雰囲気が楽しめるようになっております。
+                    </p>
+                </div>
+                <div class="newsContentPic">
+                    <img src="./img/news02.png">
+                    <p class="newsTitle">新グッズ</p>
+                    <p class="newsArticle">新コース「宇宙」のグッズが本日から登場しました。<br>
+                        2階グッズ売り場でお買い求めいただけます。<br>
+                        ぜひお越しください。
+                    </p>
+                </div>
+                <div class="newsContentPic">
+                    <img src="./img/news03.png">
+                    <p class="newsTitle">新コース</p>
+                    <p class="newsArticle">新コース「宇宙」ができました。<br>
+                        宇宙に行ってみたい方、興味のある方、ぜひ一度お試しに来てください。<br>
+                        お待ちしております。
+                    </p>
+                </div>
+                <div class="newsContentPic">
+                    <img src="./img/news04.png">
+                    <p class="newsTitle">期間限定</p>
+                    <p class="newsArticle">10月1日～10月31日限定で「ハロウィンコース」を体験いただけます。<br>
+                        少しホラー要素も含まれますので、苦手な方はご注意ください。
+                    </p>
+                </div>
+            </div>
+            <div class="button">
+                <p>more</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="company">
+        <div class="company__wrapper">
+            <p class="companyCategory">COMPANY</p>
+            <p class="companyCategoryAssistance">会社概要</p>
+            <div class="companyContent">
+                <div class="companyPic">
+                    <img src="./img/company01.png">
+                </div>
+                <div class="companyText">
+                    <p class="companyTitle">Night Trip</p>
+                    <p class="companyExplain">当社はいろんな方に世界のきれいな夜景を見てほしいという思いで設立されました。<br>
+                        お客様にどのように体験していただくかというと、アトラクションに乗って体験していただきます。<br>
+                        気球に乗って世界を旅していただくという設定になっております。<br>
+                        アトラクションに乗ることにより、よりリアルな体験をしていただけます。<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="course">
+        <p class="courseCategory">COURSE</p>
+        <p class="courseCategoryAssistance">コース</p>
+        <div class="slider">
+            <div class="courseChoice">
+                <img src="./img/course01.png">
+                <div class="courseText">北極コース</div>
+            </div>
+            <div class="courseChoice">
+                <img src="./img/course02.png">
+                <div class="courseText">宇宙コース</div>
+            </div>
+            <div class="courseChoice">
+                <img src="./img/course03.png">
+                <div class="courseText">Nightコース</div>
+            </div>
+            <div class="courseChoice">
+                <img src="./img/course04.png">
+                <div class="courseText">シティコース</div>
+            </div>
+            <div class="courseChoice">
+                <img src="./img/course05.png">
+                <div class="courseText">クリスマスコース</div>
+            </div>
+            <div class="courseChoice">
+                <img src="./img/course06.png">
+                <div class="courseText">森林コース</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="contact__wrapper">
+            <p class="contactCategory">CONTACT</p>
+            <p class="contactCategoryAssistance">お問い合わせ</p>
+            <form class="contactForm">
+                <div class="contactName">
+                    <p>氏　名</p>
+                    <input type="text" name="name">
+                </div>
+                <div class="contactMail">
+                    <p>メール</p>
+                    <input type="text" name="mail">
+                </div>
+                <div class="contactPhone">
+                    <p>電話番号</p>
+                    <input type="text" name="phone">
+                </div>
+                <div class="contactComent">
+                    <p>内　容</p>
+                    <textarea name="coment" rows="8" cols="54px"></textarea>
+                </div>
+                <div class="contactButton">
+                    <input type="submit" value="送   信">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>@2022 manabiya.sakura</p>
+    </div>
+</body>

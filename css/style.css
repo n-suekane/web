@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #16160E;
+}
+
+header {
+    background-color: #E5E4E6;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+.header__wrapper {
+    width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: 'Sacramento', cursive;
+    font-size: 32px;
+}
+
+header ul {
+    display: flex;
+    text-align: right;
+    line-height: 48px;
+    column-gap: 32px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+.bx-wrapper {
+    margin: 0 !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    background: none !important;
+}
+
+.slideshow img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+.mainVisual {
+    position: relative;
+}
+
+.catchcopy {
+    font-size: 56px;
+    color: #E5E4E6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.catchcopyTitle {
+    font-family: 'Sacramento', cursive;
+}
+
+.catchcopySub {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.news {
+    padding: auto 0;
+}
+
+.news__wrapper {
+    background-color: #E5E4E6;
+    border-radius: 100px;
+    width: 1120px;
+    margin: 128px auto;
+    padding: 64px 73px;
+}
+
+.news img {
+    width: 100%;
+}
+
+.newsCategory {
+    font-size: 48px;
+    text-align: center;
+}
+
+.newsCateroryAssistance {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 64px;
+}
+
+.newsContent {
+    display: flex;
+    justify-content: center;
+    column-gap: 32px;
+}
+
+.newsContentPic {
+    width: 256px;
+}
+
+.newsTitle {
+    font-size: 16px;
+    padding: 16px 0;
+}
+
+.newsArticle {
+    font-size: 12px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 38px;
+    height: 55px;
+    width: 136px;
+    border-radius: 50px;
+    background-color: #1E1E1E;
+}
+
+.button p {
+    display: block;
+    color: #E5E4E6;
+    text-align: center;
+}
+
+.company__wrapper {
+    width: 1097px;
+    margin: 0 auto;
+}
+
+.companyCategory {
+    color: #E5E4E6;
+    font-size: 48px;
+    text-align: center;
+}
+
+.companyCategoryAssistance {
+    color: #E5E4E6;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 64px;
+}
+
+.companyContent {
+    display: flex;
+}
+
+.companyPic {
+    width: 50%;
+}
+
+.companyText {
+    width: 50%;
+}
+
+.companyTitle {
+    color: #E5E4E6;
+    font-size: 32px;
+    font-family: 'Sacramento', cursive;
+}
+
+.companyExplain {
+    color: #E5E4E6;
+    font-size: 16px;
+    margin-top: 48px;
+}
+
+.course {
+    margin: 126px 0;
+}
+
+.slider img {
+    margin: 0 10px;
+}
+
+.courseCategory {
+    color: #E5E4E6;
+    font-size: 48px;
+    text-align: center;
+}
+
+.courseCategoryAssistance {
+    color: #E5E4E6;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 64px;
+}
+
+.courseText {
+    margin: 14px 0;
+    text-align: center;
+    color: #E5E4E6;
+}
+
+.contact {
+    background-color: #E5E4E6;
+}
+
+.contact__wrapper {
+    width: 736px;
+    margin: 0 auto;
+    padding-top: 128px;
+    padding-bottom: 96px;
+}
+
+.contactCategory {
+    font-size: 48px;
+    text-align: center;
+}
+
+.contactCategoryAssistance {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.contactName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactMail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactPhone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactComent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactForm input {
+    height: 37px;
+    width: 544px;
+    margin: 32px 0;
+}
+
+textarea {
+    height: 182px;
+    width: 544px;
+    margin: 32px 0;
+}
+
+.contactButton input {
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #333333;
+    height: 48px;
+    width: 260px;
+    border-radius: 8px;
+}
+
+.contactButton {
+    text-align: center;
+}
+
+.footer {
+    height: 80px;
+    background-color: #16160E
+}
+
+.footer p {
+    color: #E5E4E6;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+}
